@@ -10,8 +10,11 @@
     "lint": "eslint ."
   },
   "dependencies": {
+    "@react-native-firebase/app": "^7.2.0",
+    "@react-native-firebase/messaging": "^7.1.4",
     "react": "16.11.0",
-    "react-native": "0.62.2"
+    "react-native": "0.62.2",
+    "react-native-push-notification": "^3.5.2"
   },
   "devDependencies": {
     "@babel/core": "7.10.2",
