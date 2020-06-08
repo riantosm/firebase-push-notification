@@ -38,5 +38,5 @@
 ## Release APK
 
 <a href="https://bit.ly/FirebaseNotif">
-  <img src="https://img.shields.io/badge/Download-FirebaseNotif v2.1-blue.svg?style=popout&logo=mediafire"/>
+  <img src="https://img.shields.io/badge/Download-FirebaseNotif-blue.svg?style=popout&logo=mediafire"/>
 </a>
