@@ -16,6 +16,9 @@
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* FirebaseNotifTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* FirebaseNotifTests.m */; };
+		15E8992A859347D19D32F337 /* Aquawax.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E86AE07456984E97AE55D128 /* Aquawax.ttf */; };
+		CCE675406AD543C59F55FF44 /* GoogleSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6EC870A38C2A48FCAF47AD93 /* GoogleSans-Bold.ttf */; };
+		C98D177A6E4D440984108CC7 /* GoogleSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 589EDA56FFBD4E298AED2F73 /* GoogleSans-Medium.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 		2D02E4901E0B4A5D006451C7 /* FirebaseNotif-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FirebaseNotif-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+		E86AE07456984E97AE55D128 /* Aquawax.ttf */ = {isa = PBXFileReference; name = "Aquawax.ttf"; path = "../src/assets/fonts/Aquawax.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6EC870A38C2A48FCAF47AD93 /* GoogleSans-Bold.ttf */ = {isa = PBXFileReference; name = "GoogleSans-Bold.ttf"; path = "../src/assets/fonts/GoogleSans-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		589EDA56FFBD4E298AED2F73 /* GoogleSans-Medium.ttf */ = {isa = PBXFileReference; name = "GoogleSans-Medium.ttf"; path = "../src/assets/fonts/GoogleSans-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +146,7 @@
 				00E356EF1AD99517003FC87E /* FirebaseNotifTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				A785F61B1A074A75AA269643 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -156,6 +163,17 @@
 			);
 			name = Products;
 			sourceTree = "<group>";
+		};
+		A785F61B1A074A75AA269643 /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				E86AE07456984E97AE55D128 /* Aquawax.ttf */,
+				6EC870A38C2A48FCAF47AD93 /* GoogleSans-Bold.ttf */,
+				589EDA56FFBD4E298AED2F73 /* GoogleSans-Medium.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -295,6 +313,9 @@
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				15E8992A859347D19D32F337 /* Aquawax.ttf in Resources */,
+				CCE675406AD543C59F55FF44 /* GoogleSans-Bold.ttf in Resources */,
+				C98D177A6E4D440984108CC7 /* GoogleSans-Medium.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

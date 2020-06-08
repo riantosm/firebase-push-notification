@@ -25,7 +25,6 @@ class FCMService {
         if (enabled) {
           // user has permissions
           this.getToken(onRegister);
-          this.sendMessage()
         } else {
           // user doens't have permission
           this.requestPermission(onRegister);
@@ -42,6 +41,7 @@ class FCMService {
       .then(fcmToken => {
         if (fcmToken) {
           onRegister(fcmToken);
+          messaging().subscribeToTopic('all');
         } else {
           console.log('[FCMService] user does not have a device token');
         }
@@ -50,24 +50,6 @@ class FCMService {
         console.log('[FCMService] getToken rejected ', error);
       });
   };
-
-  sendMessage = ()=>{
-    var message = {
-      notification: {
-        title: '$GOOG up 1.43% on the day',
-        body: '$GOOG gained 11.80 points to close at 835.67, up 1.43% on the day.'
-      },
-      token: 'fnIzIhiLRV-aMKtloe8Uv1:APA91bHaaQxYyXf-LdTi0AdhoSwQbOL9TooVT49GObL-wJeyB_63q_8e483nTkGDIT4WCM7u38FiBHP_07U0j2_wfH8n9bkeYvA6xsVN-KgrjZ-i3rYzoj-ugcmwdXU2uOPcYXN8xj4z'
-    };
-    console.log('send');
-    // messaging().sendm(message).then((response) => {
-    //   // Response is a message ID string.
-    //   console.log('Successfully sent message:', response);
-    // })
-    // .catch((error) => {
-    //   console.log('Error sending message:', error);
-    // });
-  }
 
   requestPermission = onRegister => {
     messaging()

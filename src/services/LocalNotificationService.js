@@ -1,4 +1,5 @@
 import PushNotification from 'react-native-push-notification';
+import {colors as c} from '../styles'
 
 class LocalNotificationService {
   configure = onOpenNotification => {
@@ -45,6 +46,7 @@ class LocalNotificationService {
       playSound: options.playSound || false,
       soundName: options.soundName || 'default',
       userInteraction: false,
+      color: c.primary,
     });
   };
 
