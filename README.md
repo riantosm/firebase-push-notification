@@ -32,11 +32,11 @@
 
 <p align="center">
 <br>
- <img src="https://user-images.githubusercontent.com/59215215/84000301-9ba5b580-a98e-11ea-861e-96300df0d60c.gif" />
+ <img src="https://user-images.githubusercontent.com/59215215/84157596-1e189d00-aa95-11ea-8b60-57acb4c38d25.gif" />
 </p>
 
 ## Release APK
 
 <a href="https://bit.ly/FirebaseNotif">
-  <img src="https://img.shields.io/badge/Download-FirebaseNotif v2.1-blue.svg?style=popout&logo=mediafire"/>
+  <img src="https://img.shields.io/badge/Download-FirebaseNotif-blue.svg?style=popout&logo=mediafire"/>
 </a>
